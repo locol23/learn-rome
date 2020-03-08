@@ -1,0 +1,18 @@
+{
+  "name": "learn-rome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "rome lint src/index.js",
+    "compile": "rome compile src/index.js",
+    "parse": "rome parse src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yoshitaka Terazawa",
+  "license": "MIT",
+  "devDependencies": {
+    "rome": "^3.0.0"
+  }
+}
